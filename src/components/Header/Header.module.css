@@ -2,14 +2,12 @@
   display: flex;
   padding: 24px 64px;
   align-items: center;
-  gap: 450px;
-  border-bottom: 1px solid var(--Badges, #f2f4f7);
-  background: var(--Inputs, #f7f7f7);
+  background: #ffc531;
 }
 
 .nav {
   display: flex;
-  gap: 450px;
+  gap: 45px;
 }
 
 .navigation {
@@ -20,12 +18,32 @@
 .link {
   color: #101828;
   text-align: center;
-  font-size: 16px;
-  font-style: normal;
+  font-size: 18px;
   font-weight: 500;
   line-height: 24px;
 }
 
 .active {
-  color: #d84343;
+  color: #02a5e6;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+}
+
+.headerText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 8px;
+}
+
+.titel {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.titelAvtor {
+  font-style: normal;
 }
