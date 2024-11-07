@@ -1,4 +1,9 @@
 import css from "./Footer.module.css";
+
+import { BsInstagram } from "react-icons/bs";
+import { FaFacebookF } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+
 const Footer = () => (
   <div className={css.footer}>
     <p className={css.text}>
@@ -8,10 +13,8 @@ const Footer = () => (
     <div className={css.footerSocialMedia}>
       <ul className={css.footerSocial}>
         <li className={css.footerSocialIcon}>
-          <a href="" className={css.socialLinkFooter}>
-            <svg className={css.socialIcon} width="24" height="24">
-              <use href="../../assets/icons.svg#icon-instagram"></use>
-            </svg>
+          <a href="" target="_blank" className={css.socialLinkFooter}>
+            <BsInstagram className={css.socialIcon} />
           </a>
         </li>
         <li className={css.footerSocialIcon}>
@@ -20,23 +23,12 @@ const Footer = () => (
             target="_blank"
             className={css.socialLinkFooter}
           >
-            <svg className={css.socialIcon} width="24" height="24">
-              <use href="../../assets/icons.svg#icon-facebook"></use>
-            </svg>
+            <FaFacebookF className={css.socialIcon} />
           </a>
         </li>
         <li className={css.footerSocialIcon}>
-          <a href="" className={css.socialLinkFooter}>
-            <svg className={css.socialIcon} width="24" height="24">
-              <use href="../../assets/icons.svg#icon-linkedin"></use>
-            </svg>
-          </a>
-        </li>
-        <li className={css.footerSocialIcon}>
-          <a href="" className={css.socialLinkFooter}>
-            <svg className={css.socialIcon} width="24" height="24">
-              <use href="../../assets/icons.svg#icon-twitter"></use>
-            </svg>
+          <a href="" target="_blank" className={css.socialLinkFooter}>
+            <FaLinkedinIn className={css.socialIcon} />
           </a>
         </li>
       </ul>
