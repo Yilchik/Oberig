@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import css from "./Header.module.css";
 import clsx from "clsx";
-import logoImage from "../../assets/logo.jpg";
+import logoImage from "../../assets/logoDoloni.png";
 
 const buildLinkClass = ({ isActive }) => {
   return clsx(css.link, isActive && css.active);
