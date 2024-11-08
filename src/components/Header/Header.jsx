@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import css from "./Header.module.css";
-import clsx from "clsx";
+import logoImage from "../../assets/heart.jpg";
 
 const buildLinkClass = ({ isActive }) => {
   return clsx(css.link, isActive && css.active);
@@ -10,7 +10,7 @@ const Header = () => (
   <div className={css.header}>
     <nav className={css.nav}>
       <NavLink to="/">
-        <img src="/src/assets/logoDoloni.png" alt="Logo" className={css.logo} />
+        <img src={logoImage} alt="Logo" className={css.logo} />
       </NavLink>
       <div className={css.headerText}>
         <h1>Благодійний Фонд "Волонтерський рух Оберіг"</h1>
