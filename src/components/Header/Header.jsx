@@ -22,13 +22,13 @@ const Header = () => (
           <NavLink to="/" className={buildLinkClass}>
             Головна
           </NavLink>
-          <NavLink to="/catalog" className={buildLinkClass}>
+          <NavLink to="/history" className={buildLinkClass}>
             Історія створення
           </NavLink>
-          <NavLink to="/catalog" className={buildLinkClass}>
+          <NavLink to="/activity" className={buildLinkClass}>
             Діяльність фонду
           </NavLink>
-          <NavLink to="/catalog" className={buildLinkClass}>
+          <NavLink to="/help" className={buildLinkClass}>
             Як допомогти?
           </NavLink>
         </div>

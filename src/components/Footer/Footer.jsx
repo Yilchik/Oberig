@@ -13,7 +13,11 @@ const Footer = () => (
     <div className={css.footerSocialMedia}>
       <ul className={css.footerSocial}>
         <li className={css.footerSocialIcon}>
-          <a href="" target="_blank" className={css.socialLinkFooter}>
+          <a
+            href="https://www.instagram.com/volonter_rukh_oberih?igsh=dmU0Y2UzeWhmdHFu"
+            target="_blank"
+            className={css.socialLinkFooter}
+          >
             <BsInstagram className={css.socialIcon} />
           </a>
         </li>
