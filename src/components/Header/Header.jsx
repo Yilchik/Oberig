@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import css from "./Header.module.css";
+import clsx from "clsx";
 import logoImage from "../../assets/heart.jpg";
 
 const buildLinkClass = ({ isActive }) => {
