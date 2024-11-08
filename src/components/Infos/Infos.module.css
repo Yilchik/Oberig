@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 48px 64px 52px;
+  background-color: #d4f0fc;
+}
+
+.title {
+  text-align: center;
+}
+
+.text {
+  text-indent: 20px;
+}
+
+.listUl {
+  padding-left: 10px;
+}
+
+.list {
+  list-style-type: disc;
+}
