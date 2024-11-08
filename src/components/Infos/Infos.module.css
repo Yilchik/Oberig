@@ -1,8 +1,8 @@
 .container {
   display: flex;
   gap: 20px;
-  padding: 48px 64px 52px;
   background-color: #d4f0fc;
+  padding-top: 200px;
 }
 
 .title {

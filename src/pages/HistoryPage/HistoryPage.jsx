@@ -2,13 +2,14 @@ import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import css from "./HistoryPage.module.css";
 import Infos from "../../components/Infos/Infos";
+import Team from "../../components/Team/Team";
 
 const HistoryPage = () => {
   return (
     <div>
       <Header />
       <Infos />
-
+      <Team />
       <Footer />
     </div>
   );
