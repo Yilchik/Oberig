@@ -46,7 +46,7 @@ p {
 }
 
 section {
-  padding: 48px 64px 52px;
+  padding: 40px 64px 40px;
 }
 
 ul,
@@ -59,8 +59,9 @@ li {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: #def3fc;
   }
+
   a:hover {
     color: #ffffff;
   }
