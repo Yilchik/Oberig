@@ -32,6 +32,9 @@ const Header = () => (
           <NavLink to="/help" className={buildLinkClass}>
             Як допомогти?
           </NavLink>
+          <NavLink to="/gratitude" className={buildLinkClass}>
+            Подяки
+          </NavLink>
         </div>
       </div>
     </nav>

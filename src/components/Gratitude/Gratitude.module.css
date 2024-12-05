@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  gap: 20px;
+  padding-top: 200px;
+}
+
+.gratitude {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+.title {
+  padding-bottom: 10px;
+}
+
+.gratitudeCard {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.gratitudePhoto {
+  letter-spacing: 0.02em;
+}
