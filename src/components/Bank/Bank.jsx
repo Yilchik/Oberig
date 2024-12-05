@@ -1,3 +1,4 @@
+import Fuel from "../Fuel/Fuel";
 import css from "./Bank.module.css";
 
 const Bank = () => (
@@ -34,6 +35,7 @@ const Bank = () => (
       </p>
       <p className={css.text}>Назва банку: АТ КБ "ПРИВАТБАНК</p>
     </div>
+    <Fuel />
   </section>
 );
 
