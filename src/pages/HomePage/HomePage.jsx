@@ -6,7 +6,7 @@ const HomePage = () => {
   return (
     <div>
       <Header />
-      <section className={css.header}>
+      <section className={css.hero}>
         <div className={css.container}>
           <div className={css.title}>
             <p className={css.text}>
