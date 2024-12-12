@@ -1,5 +1,5 @@
 const Images = [
-  { id: 1, src: "../src/assets/gr.jpg", alt: "Фото 1" },
+  { id: 1, src: "./assets/gr.jpg", alt: "Фото 1" },
   { id: 2, src: "../src/assets/medal.jpg", alt: "Фото 2" },
   { id: 3, src: "../src/assets/gr1.jpg", alt: "Фото 3" },
   { id: 4, src: "../src/assets/gr2.jpg", alt: "Фото 4" },
