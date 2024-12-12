@@ -12,12 +12,72 @@
 
 .nav {
   display: flex;
-  gap: 20px;
+  gap: 10px;
+}
+
+.modalHeader {
+  opacity: 0;
+  transition: opacity 0.5s, height 0.5s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: #ffc531;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.modalHeader.isOpen {
+  opacity: 1;
+  height: 100%;
+}
+
+.headerMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnMenu {
+  width: 28px;
+  height: 28px;
+  display: block;
+  cursor: pointer;
+  border: none;
+  background-color: inherit;
+  padding: 2px;
+}
+
+.btnClose {
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 4;
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+}
+
+.navMenu {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
 }
 
 .navigation {
-  display: flex;
-  gap: 32px;
+  display: none;
 }
 
 .link {
@@ -33,8 +93,8 @@
 }
 
 .logo {
-  width: 120px;
-  height: 120px;
+  width: 60px;
+  height: 60px;
 }
 
 .headerText {
