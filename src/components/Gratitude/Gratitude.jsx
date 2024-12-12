@@ -4,18 +4,23 @@ import Images from "../Images/Images";
 
 const Gratitude = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [currentImage, setCurrentImage] = useState(null);
+  const [currentIndex, setCurrentIndex] = useState(null);
 
-  const openModal = (image) => {
-    setCurrentImage(image);
+  const openModal = (index) => {
+    setCurrentIndex(index);
     setIsModalOpen(true);
     document.body.style.overflow = "hidden";
   };
 
   const closeModal = () => {
     setIsModalOpen(false);
-    setCurrentImage(null);
+    setCurrentIndex(null);
     document.body.style.overflow = "auto";
+  };
+
+  const showNextImage = (e) => {
+    e.stopPropagation();
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % Images.length);
   };
 
   useEffect(() => {
@@ -41,32 +46,27 @@ const Gratitude = () => {
       <div className={css.gratitude}>
         <h2 className={css.title}>Подяки</h2>
         <ul className={css.gratitudeCard}>
-          {Images.map((image) => (
+          {Images.map((image, index) => (
             <li className={css.gratitudePhoto} key={image.id}>
               <img
                 src={image.src}
                 alt={image.alt}
                 loading="lazy"
-                onClick={() => openModal(image)}
+                onClick={() => openModal(index)}
                 className={css.image}
               />
             </li>
           ))}
         </ul>
       </div>
-      {isModalOpen && currentImage && (
+      {isModalOpen && currentIndex !== null && (
         <div className={css.modalOverlay} onClick={closeModal}>
-          <div
-            className={css.modalContent}
-            onClick={(e) => e.stopPropagation()}
-          >
-            <img
-              src={currentImage.src}
-              alt={currentImage.alt}
-              className={css.modalImage}
-              onClick={closeModal}
-            />
-          </div>
+          <img
+            src={Images[currentIndex].src}
+            alt={Images[currentIndex].alt}
+            className={css.modalImage}
+            onClick={showNextImage}
+          />
         </div>
       )}
     </section>
