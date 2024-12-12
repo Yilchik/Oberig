@@ -1,18 +1,14 @@
 .container {
-  padding-top: 200px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  flex-wrap: wrap;
+  padding-top: 180px;
 }
 
 .list {
   list-style-type: disc;
 }
 
-.Banks {
-  display: flex;
-  gap: 20px;
+.info {
+  text-align: justify;
+  padding-bottom: 10px;
 }
 
 .infoBank {
@@ -27,9 +23,56 @@
 
 .picture {
   border-radius: 4px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.bank {
+  padding-bottom: 10px;
 }
 
 .icon {
   width: 16px;
   height: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .list {
+    list-style-type: disc;
+  }
+
+  .Banks {
+    display: flex;
+    gap: 20px;
+  }
+
+  .infoBank {
+    letter-spacing: 0.02em;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+      0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+      0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  }
+
+  .picture {
+    border-radius: 4px;
+  }
+
+  .icon {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
 }

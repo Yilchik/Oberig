@@ -28,8 +28,8 @@ const Bank = () => (
         </li>
       </ul>
     </div>
-    <div className={css.Banks}>
-      <div className={css.Bank}>
+    <div className={css.banks}>
+      <div className={css.bank}>
         <img
           src={hryvniaImage}
           alt="hryvnia"
