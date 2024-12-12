@@ -26,8 +26,8 @@ a:hover {
 }
 
 body {
-  margin: 0;
-  min-width: 1440px;
+  margin: 0 auto;
+  min-width: 320px;
   width: 100%;
   min-height: 100vh;
 }
@@ -65,4 +65,15 @@ li {
   a:hover {
     color: #ffffff;
   }
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1440px) {
 }

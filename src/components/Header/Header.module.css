@@ -1,6 +1,6 @@
 .header {
   display: flex;
-  padding: 20px 60px;
+  padding: 10px 10px;
   align-items: center;
   background: #ffc531;
   position: fixed;
@@ -12,7 +12,7 @@
 
 .nav {
   display: flex;
-  gap: 45px;
+  gap: 20px;
 }
 
 .navigation {
@@ -51,4 +51,48 @@
 
 .titelAvtor {
   font-style: normal;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    display: flex;
+    padding: 20px 60px;
+    align-items: center;
+    background: #ffc531;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav {
+    display: flex;
+    gap: 45px;
+  }
+
+  .navigation {
+    display: flex;
+    gap: 32px;
+  }
+
+  .link {
+    color: #213547;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  .active {
+    color: #02a5e6;
+  }
+
+  .logo {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
 }
