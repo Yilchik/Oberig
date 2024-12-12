@@ -7,7 +7,7 @@ const Fuel = () => (
   <div className={css.fuel}>
     <img
       src={fuelImage}
-      alt="Фото Анушенкова Ганна"
+      alt="Fuel"
       width="359"
       height="200"
       loading="lazy"

@@ -1,5 +1,6 @@
 import Fuel from "../Fuel/Fuel";
 import css from "./Bank.module.css";
+import hryvniaImage from "../../assets/hryvnia.jpg";
 
 const Bank = () => (
   <section className={css.container}>
@@ -26,14 +27,24 @@ const Bank = () => (
         </li>
       </ul>
     </div>
-    <div className={css.infoBank}>
-      <p className={css.text}>Найменування отримувача:</p>
-      <p className={css.text}>БО БФ ВР ОБЕРІГ</p>
-      <p className={css.text}>Код отримувача: 45216098</p>
-      <p className={css.text}>
-        Рахунок отримувача: UA773052990000026002050585026
-      </p>
-      <p className={css.text}>Назва банку: АТ КБ "ПРИВАТБАНК</p>
+    <div className={css.info}>
+      <img
+        src={hryvniaImage}
+        alt="hryvnia"
+        width="437"
+        height="200"
+        loading="lazy"
+        className={css.picture}
+      />
+      <div className={css.infoBank}>
+        <p className={css.text}>Найменування отримувача:</p>
+        <p className={css.text}>БО БФ ВР ОБЕРІГ</p>
+        <p className={css.text}>Код отримувача: 45216098</p>
+        <p className={css.text}>
+          Рахунок отримувача: UA773052990000026002050585026
+        </p>
+        <p className={css.text}>Назва банку: АТ КБ "ПРИВАТБАНК</p>
+      </div>
     </div>
     <Fuel />
   </section>
