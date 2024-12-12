@@ -1,6 +1,7 @@
 .container {
   padding-top: 200px;
   display: flex;
+  flex-direction: column;
   gap: 20px;
   flex-wrap: wrap;
 }
@@ -9,10 +10,12 @@
   list-style-type: disc;
 }
 
-.infoBank {
+.Banks {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  gap: 20px;
+}
+
+.infoBank {
   letter-spacing: 0.02em;
   padding: 5px;
   background-color: #fff;
@@ -24,4 +27,9 @@
 
 .picture {
   border-radius: 4px;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
 }

@@ -15,9 +15,9 @@ const Fuel = () => (
     />
     <div className={css.infoFuel}>
       <h3 className={css.text}>Збір на паливо</h3>
-      <BsFillFuelPumpFill />
-      <BsFillFuelPumpFill />
-      <BsFillFuelPumpFill />
+      <BsFillFuelPumpFill className={css.icon} />
+      <BsFillFuelPumpFill className={css.icon} />
+      <BsFillFuelPumpFill className={css.icon} />
       <p className={css.text}>Готуємось, збираємось ....</p>
       <p className={css.text}>Друзі, допомога на паливо завжди актуальна.</p>
       <p className={css.text}>Дякуємо усім, хто допомогає постійно.</p>
