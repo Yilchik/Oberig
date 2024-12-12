@@ -69,22 +69,20 @@ li {
 
 @media screen and (min-width: 768px) {
   h1 {
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 1.5;
-    margin: 0;
+    font-size: 24px;
   }
 
-  h2,
-  h3,
-  p {
-    margin: 0;
+  section {
+    padding: 20px 44px 20px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  h1 {
+    font-size: 32px;
   }
 
   section {
     padding: 40px 64px 40px;
   }
-}
-
-@media screen and (min-width: 1440px) {
 }
