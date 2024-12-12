@@ -25,11 +25,6 @@ const SocialMedia = () => (
           <FaFacebookF className={css.socialIcon} />
         </a>
       </li>
-      <li className={css.socialIconList}>
-        <a href="" target="_blank" className={css.socialLink}>
-          <FaLinkedinIn className={css.socialIcon} />
-        </a>
-      </li>
     </ul>
   </div>
 );

@@ -1,6 +1,6 @@
-import css from "./Gratitude.module.css";
 import { useState, useEffect } from "react";
-import Images from "../Images/Images.jsx";
+import css from "./Gratitude.module.css";
+import Images from "../Images/Images";
 
 const Gratitude = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -64,6 +64,7 @@ const Gratitude = () => {
               src={currentImage.src}
               alt={currentImage.alt}
               className={css.modalImage}
+              onClick={closeModal}
             />
           </div>
         </div>
