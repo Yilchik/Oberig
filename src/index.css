@@ -9,7 +9,7 @@
 
   color-scheme: light dark;
   color: #213547;
-  background-color: #242424;
+  background-color: #def3fc;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -57,11 +57,6 @@ li {
 }
 
 @media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #def3fc;
-  }
-
   a:hover {
     color: #ffffff;
   }
