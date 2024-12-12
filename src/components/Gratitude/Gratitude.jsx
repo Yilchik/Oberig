@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import css from "./Gratitude.module.css";
-import Images from "../Images/Images";
+import Images from "../../Images";
 
 const Gratitude = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
