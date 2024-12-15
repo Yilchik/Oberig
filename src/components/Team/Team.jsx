@@ -19,7 +19,7 @@ const Team = () => (
             loading="lazy"
           />
           <div className={css.teamText}>
-            <h4 className={css.teamName}>Анушенкова Ганна</h4>
+            <h3 className={css.teamName}>Анушенкова Ганна</h3>
             <p className={css.teamPosition}>Голова</p>
             <div className={css.socialMedia}>
               <ul className={css.social}>
@@ -51,7 +51,7 @@ const Team = () => (
             loading="lazy"
           />
           <div className={css.teamText}>
-            <h4 className={css.teamName}>Зинуров Руслан</h4>
+            <h3 className={css.teamName}>Зинуров Руслан</h3>
             <p className={css.teamPosition}>Заступник</p>
             <div className={css.socialMedia}>
               <ul className={css.social}>
@@ -85,7 +85,7 @@ const Team = () => (
             loading="lazy"
           />
           <div className={css.teamText}>
-            <h4 className={css.teamName}>Філякіна Олена</h4>
+            <h3 className={css.teamName}>Філякіна Олена</h3>
             <p className={css.teamPosition}></p>
             <div className={css.socialMedia}>
               <ul className={css.social}>
@@ -117,7 +117,7 @@ const Team = () => (
             loading="lazy"
           />
           <div className={css.teamText}>
-            <h4 className={css.teamName}>Самоварова Олена</h4>
+            <h3 className={css.teamName}>Самоварова Олена</h3>
             <p className={css.teamPosition}></p>
             <div className={css.socialMedia}>
               <ul className={css.social}>
@@ -149,7 +149,7 @@ const Team = () => (
             loading="lazy"
           />
           <div className={css.teamText}>
-            <h4 className={css.teamName}>Бойко Тетяна</h4>
+            <h3 className={css.teamName}>Бойко Тетяна</h3>
             <p className={css.teamPosition}></p>
             <div className={css.socialMedia}>
               <ul className={css.social}>
@@ -181,7 +181,7 @@ const Team = () => (
             loading="lazy"
           />
           <div className={css.teamText}>
-            <h4 className={css.teamName}>Шепель Юлія</h4>
+            <h3 className={css.teamName}>Шепель Юлія</h3>
             <p className={css.teamPosition}></p>
             <div className={css.socialMedia}>
               <ul className={css.social}>
@@ -213,7 +213,7 @@ const Team = () => (
             loading="lazy"
           />
           <div className={css.teamText}>
-            <h4 className={css.teamName}>Карпіченко Роман</h4>
+            <h3 className={css.teamName}>Карпіченко Роман</h3>
             <p className={css.teamPosition}></p>
             <div className={css.socialMedia}>
               <ul className={css.social}>
@@ -245,7 +245,7 @@ const Team = () => (
             loading="lazy"
           />
           <div className={css.teamText}>
-            <h4 className={css.teamName}>Гаврилович Юрій</h4>
+            <h3 className={css.teamName}>Гаврилович Юрій</h3>
             <p className={css.teamPosition}>м. Краматорськ</p>
             <div className={css.socialMedia}>
               <ul className={css.social}>
@@ -277,7 +277,7 @@ const Team = () => (
             loading="lazy"
           />
           <div className={css.teamText}>
-            <h4 className={css.teamName}>Соловей Тетяна</h4>
+            <h3 className={css.teamName}>Соловей Тетяна</h3>
             <p className={css.teamPosition}>м. Кременна</p>
             <div className={css.socialMedia}>
               <ul className={css.social}>
@@ -309,7 +309,7 @@ const Team = () => (
             loading="lazy"
           />
           <div className={css.teamText}>
-            <h4 className={css.teamName}>Ахмаджанов Олексій</h4>
+            <h3 className={css.teamName}>Ахмаджанов Олексій</h3>
             <p className={css.teamPosition}>м. Зеленодольск</p>
             <div className={css.socialMedia}>
               <ul className={css.social}>
@@ -341,7 +341,7 @@ const Team = () => (
             loading="lazy"
           />
           <div className={css.teamText}>
-            <h4 className={css.teamName}>Марченко Павло</h4>
+            <h3 className={css.teamName}>Марченко Павло</h3>
             <p className={css.teamPosition}>смт. Велика Новосілка</p>
             <div className={css.socialMedia}>
               <ul className={css.social}>

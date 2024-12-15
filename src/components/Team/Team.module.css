@@ -7,7 +7,6 @@
 
 .title {
   padding-bottom: 10px;
-  font-size: 18px;
 }
 
 .teamCard {
@@ -93,8 +92,19 @@
   font-style: italic;
 }
 
-@media screen and (min-width: 768px) {
-  .title {
+@media screen and (min-width: 1268px) {
+  .teamName {
     font-size: 24px;
+  }
+  .teamPosition {
+    font-size: 20px;
+  }
+  .socialIconList {
+    width: 40px;
+    height: 40px;
+  }
+  .socialIcon {
+    width: 24px;
+    height: 24px;
   }
 }
