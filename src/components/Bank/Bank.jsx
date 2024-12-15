@@ -1,11 +1,14 @@
-import Fuel from "../Fuel/Fuel";
 import css from "./Bank.module.css";
 import hryvniaImage from "../../assets/hryvnia.jpg";
+import fuelImage from "../../assets/fuel.jpg";
+
 import { TbPigMoney } from "react-icons/tb";
+import { BsFillFuelPumpFill } from "react-icons/bs";
+import { LiaPrayingHandsSolid } from "react-icons/lia";
 
 const Bank = () => (
   <section className={css.container}>
-    <div className={css.info}>
+    <div className={css.infoText}>
       <p className={css.text}>
         Благодійний фонд «Волонтерський Рух Оберіг» завжди відкритий для нових
         волонтерів і донорів.
@@ -29,16 +32,14 @@ const Bank = () => (
       </ul>
     </div>
     <div className={css.banks}>
-      <div className={css.bank}>
+      <div className={css.bankContainer}>
         <img
           src={hryvniaImage}
           alt="hryvnia"
-          width="437"
-          height="200"
           loading="lazy"
           className={css.picture}
         />
-        <div className={css.infoBank}>
+        <div className={css.info}>
           <h3 className={css.text}>Кожна гривня важлива</h3>
           <TbPigMoney className={css.icon} />
           <TbPigMoney className={css.icon} />
@@ -52,7 +53,29 @@ const Bank = () => (
           <p className={css.text}>Назва банку: АТ КБ "ПРИВАТБАНК</p>
         </div>
       </div>
-      <Fuel />
+      <div className={css.bankContainer}>
+        <img
+          src={fuelImage}
+          alt="Fuel"
+          loading="lazy"
+          className={css.picture}
+        />
+        <div className={css.info}>
+          <h3 className={css.text}>Збір на паливо</h3>
+          <BsFillFuelPumpFill className={css.icon} />
+          <BsFillFuelPumpFill className={css.icon} />
+          <BsFillFuelPumpFill className={css.icon} />
+          <p className={css.text}>Готуємось, збираємось ....</p>
+          <p className={css.text}>
+            Друзі, допомога на паливо завжди актуальна.
+          </p>
+          <p className={css.text}>Дякуємо усім, хто допомогає постійно.</p>
+          <LiaPrayingHandsSolid className={css.icon} />
+          <LiaPrayingHandsSolid className={css.icon} />
+          <LiaPrayingHandsSolid className={css.icon} />
+          <h3 className={css.text}>4149499343830624</h3>
+        </div>
+      </div>
     </div>
   </section>
 );

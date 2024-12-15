@@ -6,19 +6,22 @@
   list-style-type: disc;
 }
 
-.info {
+.infoText {
   text-align: justify;
   padding-bottom: 10px;
 }
 
-.infoBank {
-  letter-spacing: 0.02em;
-  padding: 5px;
-  background-color: #fff;
-  border-radius: 4px;
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+.banks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bankContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
 }
 
 .picture {
@@ -27,8 +30,14 @@
   object-fit: contain;
 }
 
-.bank {
-  padding-bottom: 10px;
+.info {
+  letter-spacing: 0.02em;
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .icon {
@@ -45,8 +54,7 @@
   }
 
   .banks {
-    display: flex;
-    gap: 10px;
+    flex-direction: row;
   }
 
   .infoBank {
