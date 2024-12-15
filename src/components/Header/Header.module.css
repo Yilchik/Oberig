@@ -100,7 +100,7 @@
 .headerText {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   gap: 8px;
 }
 
@@ -177,5 +177,13 @@
 
   .titel {
     font-size: 24px;
+  }
+
+  .logo {
+    width: 140px;
+    height: 140px;
+  }
+  .btnClose {
+    display: none;
   }
 }

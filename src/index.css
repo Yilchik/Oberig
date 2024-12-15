@@ -85,4 +85,7 @@ li {
   section {
     padding: 40px 64px 40px;
   }
+  p {
+    font-size: 24px;
+  }
 }
