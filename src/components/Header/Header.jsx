@@ -26,19 +26,21 @@ const Header = () => {
   return (
     <div className={css.header}>
       <nav className={css.nav}>
-        <NavLink to="/">
-          <img src={logoImage} alt="Logo" className={css.logo} />
-        </NavLink>
-        <div className={css.headerText}>
-          <h1>Благодійний Фонд "Волонтерський рух Оберіг"</h1>
-          <p className={css.titel}>
-            "Тільки тим історія належить, хто сьогодні бореться й живе"{" "}
-            <span className={css.titelAvtor}>(В. Симоненко)</span>
-          </p>
+        <div className={css.navig}>
+          <NavLink to="/">
+            <img src={logoImage} alt="Logo" className={css.logo} />
+          </NavLink>
+          <div className={css.headerText}>
+            <h1>Благодійний Фонд "Волонтерський рух Оберіг"</h1>
+            <p className={css.titel}>
+              "Тільки тим історія належить, хто сьогодні бореться й живе"{" "}
+              <span className={css.titelAvtor}>(В. Симоненко)</span>
+            </p>
+          </div>
+          <button type="button" className={css.btnMenu} onClick={toggleMenu}>
+            <IoIosMenu className={css.icon} />
+          </button>
         </div>
-        <button type="button" className={css.btnMenu} onClick={toggleMenu}>
-          <IoIosMenu className={css.icon} />
-        </button>
         <div
           className={clsx(css.modalHeader, isMenuOpen && css.isOpen)}
           onClick={closeMenu}
