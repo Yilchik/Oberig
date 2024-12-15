@@ -142,7 +142,7 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1268px) {
   .btnMenu {
     display: none;
   }
@@ -150,7 +150,7 @@
   .nav {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 0px;
   }
   .navig {
     gap: 30px;
@@ -168,6 +168,8 @@
     background: none;
     position: static;
     flex-direction: row;
+    justify-content: left;
+    padding-left: 170px;
   }
 
   .navMenu {
